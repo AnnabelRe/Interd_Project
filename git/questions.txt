@@ -1,0 +1,9 @@
+Questions Prof. Aussenegg: 
+
+- many tickers not in original list --> use merge with OG tickers ok? 
+- How to Calculate CAR? through time for company i or cross sectional (36/37)
+- Not enough past data (estimation_window) --> backfill ok? Bsp 107:
+2008-05-20 07:24:21	2008-05-16	SATS	Vogel Carl E	Senior Advisor	S - Sale+OE	SATS	Male	US2787681061 (comp RI only since 1.1.08)
+- Transactions of companies, that are not in daily returns excels (list: not_in_dr, len: 131, 6296 total transactions, still 672.000)
+- same for filing date 
+- Trade type " S - Sale+OE" zu Sales? 
