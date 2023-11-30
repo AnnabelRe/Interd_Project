@@ -82,7 +82,8 @@ def run_calculation_AR(date,cr,mr, L1 = 200, L2 = 20):
 
     #a,b,eps = gunnar_run(est_window_market.values[0,:],est_window_comp.values[0,:])
     
-    AR = event_window_comp.values - a - (b*event_window_market.values)
+    AR = event_window_comp.values + a - (b*event_window_market.values)
+    #AR.values = eps
     
     return AR,eps
     
